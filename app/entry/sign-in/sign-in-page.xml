@@ -1,0 +1,17 @@
+<Page>
+    <FlexboxLayout>
+        <StackLayout>
+            <TextField text="volunteer.me" />
+
+            <TextField id="email" hint="Email Address" keyboardType="email"
+                autocorrect="false" autocapitalizationType="none" />
+            <TextField hint="Password" secure="true" />
+
+            <Button text="Sign in" class="btn btn-primary" tap="sign-in" />
+            <Button text="Sign up" class="btn btn-primary" tap="register" />
+
+
+
+        </StackLayout>
+    </FlexboxLayout>
+</Page>

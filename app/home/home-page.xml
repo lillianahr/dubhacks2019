@@ -1,0 +1,31 @@
+<Page>
+    <FlexboxLayout>
+        <StackLayout>
+
+           <TextField text="search" />
+           <TextField text="volunteer opportunity placeholder" />
+
+<TabView class="fa-bottombar"
+androidTabsPosition="bottom"
+    androidOffscreenTabLimit="0"
+    selectedTabTextColor="black"
+    tabBackgroundColor="white">
+    <TabViewItem title="&#xf015;">
+        <Frame defaultPage="/home/home-page.xml"/>
+    </TabViewItem>
+
+
+    <TabViewItem title= "&#xf05a;">
+        <Frame defaultPage="/home/profile-page.xml"/>
+    </TabViewItem>
+
+    <TabViewItem title= "&#xf086;">>
+        <Frame defaultPage="/home/map-view.xml"/>
+</TabViewItem>
+
+<TabViewItem title= "&#xf086;">
+        <Frame defaultPage="/home/upload.xml"/>
+</TabViewItem>
+
+        </StackLayout>
+    </FlexboxLayout> 

@@ -1,0 +1,47 @@
+{
+    "description": "NativeScript Application",
+    "license": "SEE LICENSE IN <your-license-filename>",
+    "readme": "NativeScript Application",
+    "repository": "<fill-your-repository-here>",
+    "nativescript": {
+        "id": "org.nativescript.playjs",
+        "tns-android": {
+            "version": "6.1.2"
+        },
+        "tns-ios": {
+            "version": "6.1.1"
+        },
+        "playground": {
+            "id": "1695679188.1570232146"
+        }
+    },
+    "scripts": {
+        "lint": "eslint \"app/**/*.js\""
+    },
+    "dependencies": {
+        "@progress-nativechat/nativescript-nativechat": "2.0.4",
+        "kinvey-nativescript-sdk": "4.2.3",
+        "nativescript-accelerometer": "2.0.1",
+        "nativescript-background-http": "4.2.0",
+        "nativescript-camera": "4.5.0",
+        "nativescript-image": "2.2.5",
+        "nativescript-geolocation": "5.1.0",
+        "nativescript-imagepicker": "7.1.0",
+        "nativescript-intl": "3.0.0",
+        "nativescript-iqkeyboardmanager": "1.5.1",
+        "nativescript-social-share": "1.5.2",
+        "nativescript-theme-core": "1.0.6",
+        "nativescript-ui-autocomplete": "5.1.1",
+        "nativescript-ui-calendar": "5.0.0",
+        "nativescript-ui-chart": "6.0.0",
+        "nativescript-ui-dataform": "5.1.1",
+        "nativescript-ui-gauge": "5.0.0",
+        "nativescript-ui-listview": "7.1.0",
+        "nativescript-ui-sidedrawer": "7.0.2",
+        "tns-core-modules": "6.1.1"
+    },
+    "devDependencies": {
+        "nativescript-dev-webpack": "1.2.0",
+        "tns-platform-declarations": "6.1.1"
+    }
+}

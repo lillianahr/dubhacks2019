@@ -1,0 +1,7 @@
+<Page>
+    <FlexboxLayout>
+        <StackLayout>
+            <Button id= "logo" text="volunteer.me" tap="navigateToSign"/>
+        </StackLayout>
+    </FlexboxLayout>
+</Page>

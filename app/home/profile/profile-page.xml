@@ -1,0 +1,14 @@
+<Page>
+    <FlexboxLayout>
+        <StackLayout>
+
+            <img src="~images/big_lion.jpg" />
+            <TextField text="Name" />
+            <TextField text="Katie Lee" />
+            <TextField text="Description: " />
+            <TextField text="Age": 23 />
+            <TextField text="Physical Ability" />
+
+            </StackLayout>
+    </FlexboxLayout> 
+</Page>
